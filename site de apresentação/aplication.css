@@ -1,0 +1,41 @@
+body {
+  width: 95%;
+  /*define a largura da pagina pq ta dentro do body*/
+  max-width: 880px;
+  margin: auto;
+  /*centraliza o elemento se vc estiver definido o tamanho*/
+  background: url(N05137_2.jpg);
+  /*adiciona plano de fundo e ajusta a imagem*/
+  font-family: 'Readex Pro', sans-serif;
+  /*estilo da font*/
+  line-height: 1.5;
+  /*espaçamento de texto*/
+  color: #fff;
+}
+
+main {
+  background: #0000001f;
+  padding: 5px 40px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.logo,
+.title,
+.sub-title {
+  margin: 0;
+  text-align: center;
+}
+
+.concerts {
+  margin: 30px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.sets table {
+  background: #0000001f;
+  border-radius: 5px;
+  padding: 79px;
+  margin: 0 auto;
+}
